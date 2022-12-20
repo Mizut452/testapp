@@ -1,0 +1,10 @@
+<h1>Home#index</h1>
+<h1>My Application</h1>
+<h2>this is index page</h2>
+<p>Find me in app/views/home/index.html.erb</p>
+<%= @message %>
+<ul>
+<% @links.each do |link| %>
+    <li><a href="/<%= link %>"><%= link %></a></li>
+<% end %>
+</ul>
